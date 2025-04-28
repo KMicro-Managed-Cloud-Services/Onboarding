@@ -1,0 +1,78 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "57f9b685-7636-4822-8543-d23e8efcf4db"
+        },
+        "definitionName": {
+            "value": "KMicro's Managed Azure Cloud Ops"
+        },
+        "definitionDescription": {
+            "value": "Managed Azure Cloud Operations, Made Easy"
+        },     
+        
+          "authorizations": {
+            "value": [
+                {
+                    "principalId": "769f9b23-748c-4f7d-8884-84d2dd0d433f",
+                    "principalIdDisplayName": "CLOUD OPS1",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "4d97b98b-1d4f-4787-a291-c67834d212e7"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "5e467623-bb1f-42f4-a55d-6e525e11384b"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "17d1049b-9a84-46fb-8f53-869881c3d3ab"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "9b7fa17d-e63e-47b0-bb0a-15c516ac86ec"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "cd08ab90-6b14-449c-ad9a-8f8e549482c6"
+                  },
+                  {
+                    "principalId": "7770d236-bb76-40a4-920b-3ede48885940",
+                    "principalIdDisplayName": "CLOUD OPS2",
+                    "roleDefinitionId": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e"
+                  },
+                  {
+                    "principalId": "cc5e430e-c7cf-4382-bb58-f4d4f930fc13",
+                    "principalIdDisplayName": "CLOUD OPS3",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                  },
+                  {
+                    "principalId": "302b0912-89a7-44be-a6b6-f5aa775087e2",
+                    "principalIdDisplayName": "CLOUD OPSX",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                  }
+            ]
+        },
+        "eligibleAuthorizations": {
+            "value": []
+        },
+      }
+}
