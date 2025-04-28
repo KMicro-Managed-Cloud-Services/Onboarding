@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "type": "String"
+        },
+        "definitionName": {
+            "type": "String"
+        },
+        "definitionDescription": {
+            "defaultValue": "",
+            "type": "String"
+        },
+        "managedByTenantId": {
+            "type": "String"
+        },
+        "authorizations": {
+            "type": "Array"
+        },
+        "eligibleAuthorizations": {
+            "type": "Array"
+        },
+        "apiVersion": {
+            "defaultValue": "2019-06-01",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.ManagedServices/registrationDefinitions",
+            "apiVersion": "[parameters('apiVersion')]",
+            "name": "[parameters('name')]",
+            
+            "properties": {
+                "registrationDefinitionName": "[parameters('definitionName')]",
+                "description": "[parameters('definitionDescription')]",
+                "managedByTenantId": "[parameters('managedByTenantId')]",
+                "authorizations": "[parameters('authorizations')]",
+                "eligibleAuthorizations": "[parameters('eligibleAuthorizations')]"
+            }
+        }
+    ]
+}
